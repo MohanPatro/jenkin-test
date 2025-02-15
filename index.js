@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
     catch(error)
     {
         console.log(error);
-        console.log("hello i am test")
+        console.log("hello i am test (button)")
         res.send("you got an error");
     }
 })
